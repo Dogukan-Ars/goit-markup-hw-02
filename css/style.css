@@ -1,0 +1,277 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+
+h1,
+h2,
+h3 {
+  color: #2e2f42;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+button {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  cursor: pointer;
+}
+
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+/**** Header section start ****/
+
+.main_header .navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar_menu {
+  display: flex;
+  align-items: center;
+  gap: 76px;
+}
+
+.navbar_logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.navbar_list {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.navbar_list li a:hover {
+  color: #404bbf;
+}
+
+.navbar_list li a:active {
+  border-bottom: 4px solid #404bbf;
+  border-radius: 2px;
+}
+
+.navbar_contacts {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar_contacts a:hover {
+  color: #404bbf;
+}
+/*** Header section end ****/
+
+/**** Main section starts ****/
+
+/** Main section > Showcase section starts **/
+
+.showcase_content {
+  min-height: 600px;
+  background: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.showcase_content h1 {
+  max-width: 600px;
+  height: 120px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.showcase_content button {
+  padding: 16px 32px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border: none;
+}
+
+.showcase_content button:hover {
+  background: #404bbf;
+}
+
+/** Main section > Showcase section end **/
+
+/** Main section > About Us section start **/
+
+.about_us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 120px 156px;
+}
+
+.about_us_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  height: 104px;
+}
+
+.about_us_list > li {
+  width: 264px;
+}
+
+/** Main section > About Us section end **/
+
+/** Main section > Our Team section start **/
+
+.our_team {
+  background: #f4f4fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  padding: 120px 156px;
+}
+
+.our_team h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.our_team_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.our_team_list > li {
+  text-align: center;
+  height: 380px;
+  padding: 0 0 32px;
+  background: #ffffff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.our_team_list > li h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/** Main section > Our Team section end **/
+
+/** Main section > Our Portfolio section start **/
+
+.our_portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  margin: 120px 156px;
+}
+
+.our_portfolio h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.our_portfolio_list_top,
+.our_portfolio_list_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.our_portfolio_list_top > li,
+.our_portfolio_list_bottom > li {
+  height: 420px;
+  border: 1px solid #e7e9fc;
+  background: #ffffff;
+}
+
+.card_description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: 120px;
+  padding: 32px 16px;
+}
+
+.card_description > h3,
+.card_description > p {
+  margin: 8px;
+}
+
+/** Main section > Our Portfolio section end **/
+
+/** Main section > Footer section start **/
+
+.main_footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+  height: 312px;
+  background: #2e2f42;
+}
+
+.footer_content {
+  width: 264px;
+  height: 112px;
+  color: #f4f4fd;
+  gap: 16px;
+    margin-left: 156px;
+}
+
+.footer_content h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/** Main section > Footer section end **/
+
+/**** Main section end ****/
